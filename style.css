@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+form {
+    margin: 20px auto;
+}
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px;
+}
+.barcode-container {
+    margin-top: 20px;
+}
+#scanner {
+    margin-top: 30px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+}
+
+.barcode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 150px; /* Set a fixed height for consistent centering */
+}
+.barcode-container img {
+    max-width: 100%; /* Ensure the barcode fits within the container */
+    height: auto;    /* Maintain aspect ratio */
+}
